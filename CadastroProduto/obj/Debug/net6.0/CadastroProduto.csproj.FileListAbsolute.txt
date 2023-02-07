@@ -1,0 +1,15 @@
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.csproj.AssemblyReference.cache
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.GeneratedMSBuildEditorConfig.editorconfig
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.AssemblyInfoInputs.cache
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.AssemblyInfo.cs
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.csproj.CoreCompileInputs.cache
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\bin\Debug\net6.0\CadastroProduto.exe
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\bin\Debug\net6.0\CadastroProduto.deps.json
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\bin\Debug\net6.0\CadastroProduto.runtimeconfig.json
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\bin\Debug\net6.0\CadastroProduto.dll
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\bin\Debug\net6.0\CadastroProduto.pdb
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.dll
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\refint\CadastroProduto.dll
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.pdb
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\CadastroProduto.genruntimeconfig.cache
+H:\Projetos Visual Studio\CadastroProduto\CadastroProduto\obj\Debug\net6.0\ref\CadastroProduto.dll
