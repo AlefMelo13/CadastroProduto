@@ -18,6 +18,7 @@
             Console.WriteLine("4 - Excluir Produto");
             Console.WriteLine("0 - Sair");
             Console.WriteLine("--------------------");
+            Console.Write("Resposta: ");
 
             int resposta = int.Parse(Console.ReadLine());
 
@@ -37,18 +38,29 @@
         static void IncluirProduto()
         {
             Console.Clear();
-            Console.Write("Código do Produto: ");
-            int codigoProduto = int.Parse(Console.ReadLine());
-            Console.Write("Nome do Produto: ");
-            string nomeProduto = Console.ReadLine();
-            Console.Write("Preço do Produto: ");
-            decimal precoProduto = decimal.Parse(Console.ReadLine());
-            Console.Clear();
-            Console.WriteLine("Produto Cadastrado com Sucesso!");
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine($"Código do Produto: {codigoProduto}");
-            Console.WriteLine($"Nome do Produto: {nomeProduto}");
-            Console.WriteLine($"Preço do Produto: {precoProduto}");
+            Console.Write("Quantos produtos deseja incluir? ");
+            int quantidade = int.Parse(Console.ReadLine());
+
+            var produto = new List<Produto>();
+
+            for(int i = 1; i <= quantidade; i++)
+            {
+                Console.WriteLine($"Cadastre o Produto {i}");
+                Console.WriteLine("-----------------------");
+                Console.Write("Código do Produto: ");
+                int codigoProduto = int.Parse(Console.ReadLine());
+                Console.Write("Nome do Produto: ");
+                string nomeProduto = Console.ReadLine();
+                Console.Write("Preço do Produto: ");
+                decimal precoProduto = decimal.Parse(Console.ReadLine());
+
+                produto.Add(new Produto(codigoProduto, nomeProduto, precoProduto));
+
+
+                Console.Clear();
+                Console.WriteLine("Produto Cadastrado com Sucesso!");
+            }
+
             Thread.Sleep(2000);
 
             Menu();
@@ -56,8 +68,6 @@
 
         static void EditarProduto()
         {
-            Console.Clear();
-            Console.Write("Código do Produto: ");
 
         }
 
